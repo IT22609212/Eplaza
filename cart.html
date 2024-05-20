@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Shopping Cart</title>
+   <script src="https://kit.fontawesome.com/65cecb8ebc.js"></script>
+   
+   <link href="cart.css" rel="stylesheet">
+</head>
+
+<body>
+  <section id="header">
+          <div>
+            <ul id="navbar" class="mainmenue">
+              <li><a class="active" href="eplaza.html">HOME</a></li>
+              <li><a class="active" href="men.html">MEN</a></li>
+              <li><a href="women.html">WOMEN</a></li>
+              <li><a href="kids.html">KIDS</a></li>
+              <li><a href="contact.html">CONTACT US</a></li>
+              <li><a href="about.html">ABOUT US</a></li>
+              <li><a href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i></a></li>
+
+            </ul>
+
+          </div>
+          
+        </section>
+
+
+   <section>
+      <div class="container">
+         <h2>My shopping cart</h2>
+         <div class="cart">
+           
+			
+			
+			<!-- First row -->
+			
+               <div id="prod" class="cartprod">
+                  <div class="row">
+                  <table>
+					<tr>
+					<td> <img src="images/xyz1.png" alt="">
+                        <h5>iPhone 11 128GB Black</h5>
+					</td>
+					<td>
+					
+					
+					<input type="number" id="num1" placeholder="Enter Qty">
+				
+					
+					</td>
+					<td>
+                        <h5><p  id="result1">Rs :0</p></h5>
+                        
+					</td>
+					<td>
+						
+						
+					</td>
+					</tr>
+                       
+                  </table> 
+                  </div>
+               </div>
+			   
+			   
+			<!-- second row -->
+			    <div id="prod" class="cartprod">
+                  <div class="row">
+                  <table>
+					<tr>
+					<td> <img src="images/xyz2.png" alt="">
+                        <h5>Air Jordan II - Shoe</h5>
+					</td>
+					<td>
+					
+					
+					<input type="number" id="num2" placeholder="Enter Qty">
+				
+					
+					</td>
+					<td>
+                        <h5><p  id="result2">Rs :0</p></h5>
+                        
+					</td>
+					<td>
+						
+						
+					</td>
+					</tr>
+                       
+                  </table> 
+                  </div>
+               </div>
+			   
+			
+			   
+
+               <div class="cartprod">
+                  <div class="row">
+
+                     <div class="col-md-8">
+                       
+                        <h5>Total:<p  id="subtotal" class="total1">Rs :0 </p></h5>
+                     </div>
+
+                     <div class="col-md-4 status">
+                        
+                        <h5><p id="result1"></p></h5>
+                     </div>
+                  </div>
+               </div>
+			   
+			  <button class="btn33" onclick="displayTotal2(), displayTotal1() , displayTotal()">Check Out</button>
+			   <button class =" btn333" > CheckOut & Proceed </button>  
+               
+ 
+             
+         </div>
+      </div>
+   </section>
+   <section class="textclr">
+      
+      <div class="col">
+         <hr>
+         <td colspan="3" class="cr">
+           <footer>
+ 
+             <div>
+               <h4>Contact</h4>
+               <p><strong>Phone:</strong>+94 0112233445</p>
+               <p><strong>Address:</strong>SLIIT FOC Malabe</p>
+               <h4>Follow us</h4>
+               <i class="fab fa-facebook-f"></i>
+               <i class="fab fa-twitter"></i>
+               <i class="fab fa-instagram"></i>
+               <i class="fab fa-pinterest-p"></i>
+               <i class="fab fa-youtube"></i>
+             </div>
+ 
+             <div class="col inst">
+               <h4>Install App</h4>
+               <p>Frome App Store or Google Play</p>
+               <img src="images/apstore.png" alt="app" width="100" height="50">
+               <img src="images/gplay.png" alt="app" width="100" height="50">
+             </div>
+             <div>
+               <p>Secured Payment Gateways</p>
+               <img src="images/pngegg.png" alt="payment" width="300" height="50">
+             </div>
+ 
+           </footer>
+           
+           <p class="text">Copy Rights &copy; 2023 SLIIT<br>Design By: MLB_16.2_09</p>
+ 
+         </td>
+       </div>
+   </section>
+   <script src="cart.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Untitled Document</title>
+    <link href="style sheet.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body topmargin="0" bottommargin="0" bgcolor="#306">
+    <table
+      width="1000"
+      border="1"
+      cellspacing="0"
+      cellpadding="0"
+      align="center"
+      class="maintable"
+    >
+      <tr>
+        <td colspan="3" height="250">
+          <!---- ////////////// Top Banner Starting /////////// ----->
+          <img
+            src="fashion-house-concept-banner-header-vector-23673981.jpg"
+            width="991"
+            height="250"
+            alt="MIBM ICT"
+          />
+
+          <!---- ////////////// Top Banner Ending ///////////// ----->
+        </td>
+      </tr>
+      <tr>
+        <td height="30" colspan="3" class="mainmenuebg">
+          <!-- /////////// Main Menue Starting /////////// ----->
+
+          <table
+            width="1000"
+            height="30"
+            border="1"
+            cellspacing="0"
+            cellpadding="0"
+          >
+            <tr align="center">
+              <td width="200">
+                <a href="home.html" class="mainmenue">HOME</a>
+              </td>
+              <td width="150">
+                <a href="about.html" class="mainmenue">ABOUT US</a>
+              </td>
+              <td width="150"><a href="men.html" class="mainmenue">MEN</a></td>
+              <td width="150">
+                <a href="women.html" class="mainmenue">WOMEN</a>
+              </td>
+              <td width="150">
+                <a href="kids.html" class="mainmenue">KIDS</a>
+              </td>
+              <td width="200">
+                <a href="contact.html" class="mainmenue">CONTACT US</a>
+              </td>
+            </tr>
+          </table>
+
+          <!-- /////////// Main Menue Ending /////////// ----->
+        </td>
+      </tr>
+      <tr align="center" valign="top">
+        <td height="500" width="800" colspan="2">
+          <!-- ///////////// Left Side Starting /////////// ---->
+          <table width="800" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <!-- /////////// New Arivals //////////// -->
+              <td colspan="2">
+                <a href="new.html" class="leftside">New Arrivals</a><br />
+                <br />
+                <table width="800" border="0" cellspacing="0" cellpadding="0">
+                  <tr align="center">
+                    <td width="200">
+                      <img src="20200430-158-150x150 1.jpg" class="img1" />
+                    </td>
+                    <td width="200"><img src="2.jpg" class="img1" /></td>
+                    <td width="200"><img src="3 new.jpg" class="img1" /></td>
+                    <td width="200"><img src="44nw.jpg" class="img1" /></td>
+                  </tr>
+                  <tr align="center">
+                    <td class="img1" height="50">
+                      Polo Collar Men's<br />
+                      T-Shirt<br />
+                      LKR 1,190.00<br /><br />
+                    </td>
+                    <td class="img1">
+                      DEE-DAT Collar T-Shirt<br />
+                      LKR 1,250.00
+                    </td>
+                    <td class="img1">
+                      Crew Neck Formal Blouse<br />
+                      LKR 1,390.00
+                    </td>
+                    <td class="img1">
+                      Women's Printed Casual Blouse<br />
+                      LKR 1,790.00
+                    </td>
+                  </tr>
+                </table>
+                <!-- /////////// New Arivals Ending ////////////// -->
+              </td>
+            </tr>
+            <tr>
+              <!-- //////////// Special Offer //////////// -->
+              <br /><br />
+              <td width="400" colspan="2">
+                <a href="special.html" class="leftside">Special Offers</a>
+                <br /><br />
+                <table width="800" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td><img src="free.jpg" width="350" height="300" /></td>
+                    <td><img src="get 1.jpg" width="350" height="300" /></td>
+                  </tr>
+                </table>
+                <!-- //////////// Special Offer Ending //////////// -->
+              </td>
+            </tr>
+            <br /><br />
+            <tr>
+              <!-- ////////// Trending Products Starting///////// -->
+              <td>
+                <a href="tranding.html" class="leftside"
+                  ><br />Trending Products</a
+                >
+                <br /><br />
+                <table width="800" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td><img src="trend.jpg" class="img2" /></td>
+                    <td><img src="trd2.jpg" class="img2" /></td>
+                    <td><img src="scrt1.jpg" class="img2" /></td>
+                    <td><img src="trd22.jpg" class="img2" /></td>
+                  </tr>
+                  <tr>
+                    <td class="img2">
+                      Crew Neck Men’s T-Shirt<br />
+                      LKR 1,990.00
+                    </td>
+                    <td class="img2">
+                      Strapeless Women's Casual Dress<br />
+                      LKR 1,390.00
+                    </td>
+                    <td class="img2">
+                      Women's Casual Skirt<br />
+                      LKR 1,490.00
+                    </td>
+                    <td class="img2">
+                      Women's Casual Blouse<br />
+                      LKR 1,690.00
+                    </td>
+                  </tr>
+                </table>
+                <br /><br /><br /><br />
+                <!-- ////////// Trending Products Ending/////////// -->
+              </td>
+            </tr>
+          </table>
+
+          <!-- ///////////// Left Side Ending /////////// ---->
+        </td>
+        <!-- ///////////// Right Side Starting /////////// ---->
+
+        <td width="200">
+          <table
+            width="200"
+            height="1000"
+            border="0"
+            cellspacing="0"
+            cellpadding="0"
+          >
+            <tr align="center" valign="middle">
+              <td width="200" height="250">
+                <img src="images.jpg" class="img3" />
+              </td>
+            </tr>
+            <tr align="center" valign="middle">
+              <td height="250"><img src="sale 2.jpg" class="img3" /></td>
+            </tr>
+            <tr align="center" valign="middle">
+              <td height="250"><img src="sale-banner.jpg" class="img3" /></td>
+            </tr>
+            <tr align="center" valign="middle">
+              <td height="250"><img src="21304674.jpg" class="img3" /></td>
+            </tr>
+          </table>
+        </td>
+        <!-- ///////////// Right Side Ending ////////////// ---->
+      </tr>
+      <tr align="center">
+        <td colspan="3" class="cr">
+          <p>Copy Rights &copy; 2021.Abc Pvt(ltd).<br />Design By: MIBM-ICT</p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
